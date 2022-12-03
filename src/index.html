@@ -11,9 +11,18 @@
   </head>
   <body>
     <div class="main">
-      <a>Ready?💣</a>
-    </div>
-    <div class="box">
+      <a href="#boom">Ready?💣</a>
+      <div id="boom">
+      </div>
+        <script>
+            var boom = "foo";
+        
+            $(function() {
+                $("#boom").addClass(boom);
+            });
+        </script>        
+      </div>
+      <div class="box">
       <div class="boom">💥💥💥Boom💥💥💥</div>
     </div>
   </body>
